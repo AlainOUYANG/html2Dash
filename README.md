@@ -10,11 +10,17 @@ Third part library required:
 
 It’s tested on Python 2.7, OS X 10.9.
 
+(**Update**) Tested on `BeautifulSoup version: 4.6.0`, Python 3.6, macOS High Sierra 10.13.6.
+
 # How to Use
 
 The usage is as simple as:
 
 	$ html2Dash <htmldir>
+	
+For Python 3:
+
+	$ html2Dash3 <htmldir>
 
 html2dash will create a new directory called `<htmldir>.docset` in `~/Library/Application Support/html2dash/DocSets` containing a Dash.app-compatible docset. When finished, the docset is automatically added to Dash.app.
 
