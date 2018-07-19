@@ -51,7 +51,7 @@ def add_infoplist(info_path, index_page):
             <key>DashDocSetFamily</key>
             <string>{2}</string>
             <key>DocSetPlatformFamily</key>
-            <string>requests</string>
+            <string>requests</string> # here change 'request' to your library's name
             <key>isDashDocset</key>
             <true/>
             <key>isJavaScriptEnabled</key>
